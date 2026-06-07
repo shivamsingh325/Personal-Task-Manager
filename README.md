@@ -1,16 +1,43 @@
-# React + Vite
+# Personal Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple task management application built using React and Vite.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Vercel Deployment:
+https://personal-task-manager-flame.vercel.app
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/shivamsingh325/Personal-Task-Manager
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add new tasks
+- Edit existing tasks
+- Delete tasks with confirmation
+- Mark tasks as complete/incomplete
+- Filter tasks by status
+- Active vs Completed count
+- Overdue task indication
+- Empty state UI
+- Local storage persistence
+
+## Tech Stack
+
+Frontend:
+- React
+- Vite
+- JavaScript
+- CSS
+
+Storage:
+- Browser Local Storage
+
+## How to Run Locally
+
+```bash
+git clone https://github.com/shivamsingh325/Personal-Task-Manager.git
+cd Personal-Task-Manager
+npm install
+npm run dev
